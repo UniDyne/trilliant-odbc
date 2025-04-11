@@ -1,0 +1,13 @@
+{
+    "name": "trilliant-odbc",
+    "version": "0.1.0",
+    "main": "index.js",
+    "dependencies": {
+        "odbc": "",
+        "trilliant": "git+https://github.com/unidyne/trilliant.git"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/unidyne/trilliant-odbc.git"
+    }
+}
