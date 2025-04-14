@@ -29,7 +29,10 @@ function execJob(job, pool) {
 	pool.getConnection().query(
 		sql,
 		params,
-		{cursor:false}, // add timeout?
+
+		// do not use cursor:false or result set will contain cursor
+		{},
+		
 		job.resultHandler
 	);
 }
